@@ -1,7 +1,8 @@
 import React from "react";
-// import "../../App.css"
+import "../App.css"
 import {Navbar, Nav, Container, NavDropdown}  from 'react-bootstrap';
 import { Link } from "react-router-dom";
+import myLogo from "../assets/images/logo1_icon.png";
 
 
 function NavBar() {
@@ -11,7 +12,8 @@ function NavBar() {
         <>
           <Navbar bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand as={Link} to="/">Bobby</Navbar.Brand>
+              <Navbar.Brand as={Link} to="/"><img className="logo" src={myLogo} alt="myLogo..."/></Navbar.Brand>
+              <a></a>
                 <Nav className="ml-auto">
                   <Nav.Link as={Link} to="/Aboutme" >About</Nav.Link>
                   <Nav.Link as={Link} to="/Portfolio">Portfolio</Nav.Link>

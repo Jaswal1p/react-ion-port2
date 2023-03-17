@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.logo {
+  border-radius: 50%;
+}
+
+.wrapper {
+  position: relative;
+  background: url(/src/assets/images/IMG_2597.jpg) no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+}

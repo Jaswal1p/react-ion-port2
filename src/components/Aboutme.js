@@ -10,8 +10,9 @@ function Aboutme() {
         <div>
              
             <>
+            <div className="wrapper">
             <h2>This is about me</h2>
-            
+            </div>
             </>
         </div>    
     );
