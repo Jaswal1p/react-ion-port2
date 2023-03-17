@@ -12,7 +12,7 @@ function NavBar() {
           <Navbar bg="dark" variant="dark">
             <Container>
               <Navbar.Brand as={Link} to="/">Bobby</Navbar.Brand>
-                <Nav className="me-auto">
+                <Nav className="ml-auto">
                   <Nav.Link as={Link} to="/Aboutme" >About</Nav.Link>
                   <Nav.Link as={Link} to="/Portfolio">Portfolio</Nav.Link>
                   <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
