@@ -1,5 +1,10 @@
+.font-link {
+  font-family: "Roboto Condensed", sans-serif;
+} 
+
 .App {
-  text-align: center;
+  
+  text-align:left;;
 }
 
 .App-logo {
@@ -37,9 +42,26 @@
   }
 }
 
+/* ********************NAVBAR****************** */
+
+
 .logo {
   border-radius: 50%;
+  height: 70px;
+  margin-left: auto;
+  
 }
+
+
+.navLink {
+  font-weight: 400 !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  letter-spacing: 0.0575rem !important;
+  cursor: pointer;
+  text-transform: uppercase !important;
+}
+
 
 .wrapper {
   position: relative;
