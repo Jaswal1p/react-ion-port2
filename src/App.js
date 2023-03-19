@@ -22,7 +22,7 @@ function App() {
     <Router>
       {/* <> */}
          <NavBar />
-         <br></br>
+         {/* <br></br> */}
          <Routes>
            <Route path='/' element={<Navigate replace to="/Aboutme" />} />
              

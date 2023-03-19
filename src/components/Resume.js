@@ -1,7 +1,7 @@
 import React from 'react';
-import JResume from '../assets/images/jaswal_resume2022.png';
-
-import Pdf from '../assets/docu/jaswal_resume2022.pdf';
+import JResume from '../assets/images/demo_alln_CV.png';
+import "../App.css";
+import Pdf from '../assets/docu/demo_Alln-CV.pdf';
 
 function Resume() {
     
@@ -16,14 +16,15 @@ function Resume() {
                         <div className='card'>
                             <div className='header'>
                                 <h5>Download Resume: 
-                                    <a href={Pdf} download> Pupinder S Jaswal</a>
+                                    <a href={Pdf} download> Allen Jaswal</a>
                                     
                                 </h5>
                             </div>
                             <br></br>
-                            <div className='row resume'>
-
-                                <img className='JResume' src={JResume} alt="My-Resume" />
+                            <div className='rowRresume'>
+                                <div className='image'>
+                                   <img className='JResume' src={JResume} alt="My-Resume" />
+                                </div>
                             </div>
                         </div>
                     </div>

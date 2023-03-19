@@ -65,7 +65,18 @@
 
 .wrapper {
   position: relative;
-  background: url(/src/assets/images/IMG_2597.jpg) no-repeat center center;
+  background: url(/src/assets/images/coffee2.jpg) no-repeat center center;
+  /* background: url(https://source.unsplash.com/random); */
   background-size: cover;
   height: 90vh;
+}
+
+.card {
+  align-items: center;
+  
+
+}
+
+.rowRresume {
+  /* background: url(/src/assets/images/white_building2.jpg) no-repeat center center; */
 }
