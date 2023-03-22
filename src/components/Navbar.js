@@ -17,20 +17,16 @@ function NavBar() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                   <Nav className="ms-auto">
-                    <Nav.Link className="navLink" as={Link} to="/Aboutme" >About</Nav.Link>
-                    <Nav.Link className="navLink" as={Link} to="/Portfolio">Portfolio</Nav.Link>
-                    <Nav.Link className="navLink" as={Link} to="/Contact">Contact</Nav.Link>
+                    <Nav.Link className="navLink" as={Link} to="/Aboutme" ><span>A</span>bout</Nav.Link>
+                    <Nav.Link className="navLink" as={Link} to="/Portfolio"><span>P</span>ortfolio</Nav.Link>
+                    <Nav.Link className="navLink" as={Link} to="/Contact"><span>C</span>ontact</Nav.Link>
                     <NavDropdown className="navLink" title="Link" id="navbarScrollingDropdown">
                         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action4">
-                          Another action
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action5">
-                          Something else here
-                        </NavDropdown.Item>
+                        <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link className="navLink" as={Link} to="/Resume">Resume</Nav.Link>  
+                    <Nav.Link className="navLink" as={Link} to="/Resume"><span>R</span>esume</Nav.Link>  
                   </Nav>
               </Navbar.Collapse>  
             </Container>

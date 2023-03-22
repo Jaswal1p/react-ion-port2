@@ -49,17 +49,29 @@
   border-radius: 50%;
   height: 70px;
   margin-left: auto;
+  cursor: default !important;
   
+}
+
+.ms-auto {
+  border-bottom: 1px solid #a29e9e;
+  /* border-bottom: 2px solid #fff; */
+  opacity: 350%;
 }
 
 
 .navLink {
   font-weight: 400 !important;
+  
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   letter-spacing: 0.0575rem !important;
-  cursor: pointer;
+  cursor: default !important;
   text-transform: uppercase !important;
+}
+
+.navLink span {
+  color: #e91111 !important;
 }
 
 
@@ -68,15 +80,47 @@
   background: url(/src/assets/images/coffee2.jpg) no-repeat center center;
   /* background: url(https://source.unsplash.com/random); */
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
-.card {
-  align-items: center;
+.wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 10%;
+}
+
+.wrapper .content h3{
+  font-size: 45px;
+  font-weight: 900;
+
+}
+
+.wrapper .content p {
+  font-size: 25px;
   
 
 }
 
-.rowRresume {
-  /* background: url(/src/assets/images/white_building2.jpg) no-repeat center center; */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+ 
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  
+
 }
