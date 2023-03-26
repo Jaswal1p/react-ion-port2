@@ -8,7 +8,7 @@ function Contact() {
 
     const [formState, setFormState] = useState( { name: '', email: '', message: ''});
 
-    const { name, email, number, message } = formState;
+    const { name, email, message } = formState;
 
     function handleChange(e) {
 
@@ -104,7 +104,7 @@ function Contact() {
         <div className="container-lg mt-2">
             <div className="text-center">
                 <h2>Contact Me</h2>
-                <p className="lead">Please fill out the form to contact me directly</p>
+                <p className="lead">Do you have any queries or questions? Fill out the form to contact me directly</p>
             </div>
 
             <form id="contact-form" onSubmit={handleSubmit}></form>
@@ -112,7 +112,7 @@ function Contact() {
             <div className="row justify-content-center my-5">
                 <div className="col-lg-6">
                     <form>
-                        <label htmlFor="email" class="form-label">Your Email Address</label>
+                        <label htmlFor="email" class="form-label">Email Address</label>
                         <div className="input-group mb-4">
                             <span className="input-group-text">
                                 <i className="bi bi-envelope-at-fill"></i>
@@ -127,26 +127,12 @@ function Contact() {
                         </div>
                         
 
-                        <label htmlFor="name" className="form-label">Your Name</label>
+                        <label htmlFor="name" className="form-label">Your Name:</label>
                         <div className="input-group mb-4">
                             <span className="input-group-text">
                                 <i className="bi bi-person-fill"></i>
                             </span>
                             <input for="text" input type="text" name="name" onBlur= {handleChange}defaultValue={name} class="form-control" id="name" placeholder="your First & Last name"/>
-                            <span className="input-group-text">
-                                <span className="tt" data-bs-placement="bottom" title="Enter your name">
-                                  <i className="bi bi-question-circle text-muted"></i>
-                                </span>
-                            </span>
-                        </div>
-
-
-                        <label htmlFor="name" className="form-label">Telephone</label>
-                        <div className="input-group mb-4">
-                            <span className="input-group-text">
-                                <i className="bi bi-person-fill"></i>
-                            </span>
-                            <input for="text" input type="text" name="name" onBlur= {handleChange}defaultValue={number} class="form-control" id="number" placeholder="your Telephone number"/>
                             <span className="input-group-text">
                                 <span className="tt" data-bs-placement="bottom" title="Enter your name">
                                   <i className="bi bi-question-circle text-muted"></i>
@@ -170,7 +156,7 @@ function Contact() {
 
                         
                         <div className="form-floating">
-                            <textarea name="message" rows="5" onBlur= {handleChange} defaultValue={message} id="query" className="form-control my-4" ></textarea>
+                            <textarea name="message" rows="5" onBlur= {handleChange} defaultValue={message} id="query" className="form-control my-2"></textarea>
                             <label htmlFor="query" className="form-label">Your Query</label>
                         </div>
 
