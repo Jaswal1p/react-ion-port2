@@ -17,7 +17,6 @@ function Resume() {
                             <div className='header'>
                                 <h5>Download Resume: 
                                     <a href={Pdf} download> Allen Jaswal</a>
-                                    
                                 </h5>
                             </div>
                             <br></br>

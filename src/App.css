@@ -106,7 +106,6 @@
 .wrapper .content h3{
   font-size: 45px;
   font-weight: 900;
-
 }
 
 .wrapper .content h3 span{
@@ -115,8 +114,29 @@
 
 .wrapper .content p {
   font-size: 20px;
-  
+}
 
+.col {
+  background-color: rgb(178, 206, 231) !important;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(198, 217, 234) !important;
+  padding-top: 30px;
+  text-align: center;;
+}
+
+.card .header h5 {
+  font-size: larger;
+  font-weight: 1000;
+}
+
+.card .header a {
+  color: #e91111;
+  font-weight: 500;
+  text-decoration: none !important;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
