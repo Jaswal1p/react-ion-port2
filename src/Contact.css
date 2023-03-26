@@ -1,0 +1,19 @@
+.contact {
+    position: relative;
+    background-image: url(/src/assets/images/thira.jpg); 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.contactMe {
+    display: flex;
+    justify-content: center;
+}
+
+.contactForm {
+    display:flex;
+    justify-content: center;
+}

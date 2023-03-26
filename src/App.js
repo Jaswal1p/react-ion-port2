@@ -6,7 +6,8 @@ import { Navigate, Routes, BrowserRouter as Router, Route} from "react-router-do
 
 import NavBar from './components/Navbar.js';
 import Aboutme from './components/Aboutme';
-import Portfolio from './components/Portfolio';
+import Education from './components/Education';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
@@ -27,7 +28,8 @@ function App() {
            <Route path='/' element={<Navigate replace to="/Aboutme" />} />
              
            <Route path='/Aboutme' element={<Aboutme/>} />
-           <Route path='/Portfolio' element={<Portfolio/>} />
+           <Route path='/Education' element={<Education/>} />
+           <Route path='/Experience' element={<Experience/>} />
            <Route path='/Contact' element={<Contact/>} />
 
            

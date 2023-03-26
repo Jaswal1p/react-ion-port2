@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Portfolio() {
+function Education() {
     
     return (
         <div>
              
             <>
-            <h2>This is my portfolio</h2>
+            <h2>This is my Education</h2>
             
             </>
         </div>    
@@ -14,4 +14,4 @@ function Portfolio() {
 }
 
 
-export default Portfolio;
+export default Education;
