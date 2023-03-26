@@ -42,12 +42,12 @@ function Aboutme() {
              
             <>
             <div className="wrapper">
-                <h2>This is about me</h2>
+                {/* <h2>This is about me</h2> */}
                 <div className="overlay"></div>
 
                 <div className="content">
-                    <h3>Its All about what you <br/><span ref={el}></span></h3>
-                    <p>Excepteur enim enim sint esse excepteur deserunt commodo fugiat ut ut cillum elit. Enim dolor commodo mollit sit ullamco sit mollit laborum cupidatat voluptate. Exercitation fugiat officia cillum est esse ea sint laboris est eiusmod ea ullamco.</p>
+                    <h3>Its All about what you <span ref={el}></span></h3>
+                    <p>Excepteur enim enim sint esse excepteur deserunt commodo fugiat ut ut cillum elit. </p>
                     
                 </div>
             </div>

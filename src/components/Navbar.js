@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css"
 import {Navbar, Nav, Container, NavDropdown}  from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import myLogo from "../assets/images/logo1_icon.png";
+import myLogo from "../assets/images/logo1.png";
 
 
 function NavBar() {
